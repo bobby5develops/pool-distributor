@@ -1,0 +1,40 @@
+/* =====
+MID-FEATURE
+======== */
+
+/* Imports */
+@import "../fonts";
+
+/* Sections */
+section.group{
+
+    div{
+        float: left;
+        span.one{
+            background-image: url("../../img/one.png");
+            width: 89px;
+            height: 89px;
+            padding-left: 10px;
+        }
+        span.two{
+            background-image: url("../../img/two.png");
+            width: 89px;
+            height: 89px;
+            padding-left: 10px;
+        }
+        span.three{
+            background-image: url("../../img/three.png");
+            width: 89px;
+            height: 89px;
+            padding-left: 10px;
+        }
+        h1{
+            font-family:"San Francisco Display Medium";
+            text-align: left;
+        }
+        p{
+            font-family:"San Francisco Display Thin";
+            text-align: left;
+        }
+    }
+}

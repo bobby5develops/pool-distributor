@@ -1,0 +1,28 @@
+/* =====
+BUBBLES
+======== */
+
+
+/* Sections */
+section.bubbles-container{
+    margin-top: 20px;
+    div.bubbles {
+        /* The image used */
+        background-image: url("../../img/bubbles.png");
+
+        /* Set a specific height */
+        height: 198px;
+
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+
+
+
+
+}

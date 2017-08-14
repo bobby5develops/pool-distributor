@@ -1,0 +1,273 @@
+<!doctype html>
+<html class="no-js" lang="eng" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Red Ventures Coding Test</title>
+        <meta name="description" content="Red Ventures Coding Test">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/pool_dealer.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+       <header class="top-navigation span_3_of_3">
+           <div class="container">
+               <ul class="span_1_of_3">
+                   <li><a href="#">Dealers & Distributors</a></li>
+                   <li><a href="#">Commercial Services</a></li>
+               </ul>
+           </div>
+       </header>
+       <nav class="container main-navigation span_3_of_3">
+           <div class="span_1_of_3">
+               <a class="logo" href="#"></a>
+               <a class="mobile-toggle" href="#">
+                   <!--input the hamburger icon-->
+                   <span>mobile view</span>
+
+               </a>
+           </div>
+           <ul class="span_2_of_3">
+               <li><a href="#">Pools & Spas </a><span></span></li>
+               <li><a href="#">Supplies</a><span></span></li>
+               <li><a href="#">Resources</a><span></span></li>
+               <li><a href="#">Services</a><span></span></li>
+               <li class="button"><a class="" href="#">Find a Pool Pro</a></li>
+           </ul>
+       </nav>
+       <section class="span_3_of_3">
+           <div class="hero-image">
+               <div class="hero-text">
+                   <h1>Is your pool ready for Summer?</h1>
+                   <p>A POOL PRO IS READY TO HELP!</p>
+                   <span></span>
+                   <p>Choose a pro that's close to your home from the list below.</p>
+               </div>
+           </div>
+       </section>
+       <section class="container span_3_of_3 group">
+           <div class="span_1_of_3">
+               <span class="one"></span>
+               <div>
+                   <h1>CHOOSE A PRO</h1>
+                   <p>Make sure your ZIP code is correct,</br>then choose a pro from the list below</p>
+               </div>
+           </div>
+           <div class="span_1_of_3">
+               <span class="two"></span>
+               <div>
+                   <h1>CONTACT A PRO</h1>
+                   <p>Email a pro to make an appointment for</br>
+                   pool & spa services or installation.</p>
+               </div>
+           </div>
+           <div class="span_1_of_3">
+               <span class="three"></span>
+               <div>
+                   <h1>A PRO VISITS</h1>
+                   <p>A pro will visit your home and </br> assess your pool & spa needs.</p>
+               </div>
+           </div>
+       </section>
+       <section class="bubbles-container span_3_of_3">
+            <div class="bubbles"></div>
+       </section>
+       <section class="container filter-container span_3_of_3">
+           <ul class="filter">
+               <li class="title">
+                   <h3>7 dealers</h3>
+               </li>
+               <li class="sub-title">
+                   <h4>Filter Results</h4>
+               </li>
+               <li>
+                   <input type="checkbox" id="service-option" data-type="services" value="Service Pro" name="selector">
+                   <label for="service-option">Service</label>
+
+                   <div class="check"></div>
+               </li>
+               <li>
+                   <input type="checkbox" id="installation-option" data-type="services" value="Installation Pro" name="selector">
+                   <label for="installation-option">Installation</label>
+
+                   <div class="check"><div class="inside"></div></div>
+               </li>
+               <li>
+                   <input type="checkbox" id="residential-option" data-type="services" value="Residential Pro" name="selector">
+                   <label for="residential-option">Residential</label>
+
+                   <div class="check"><div class="inside"></div></div>
+               </li>
+               <li>
+                   <input type="checkbox" id="commercial-option" data-type="services" value="Commercial Pro" name="selector">
+                   <label for="commercial-option">Commercial</label>
+
+                   <div class="check"><div class="inside"></div></div>
+               </li>
+               <li>
+                   <div class="question-option">
+                       <span class="question_icon"></span>
+                   </div>
+
+               </li>
+           </ul>
+       </section>
+       <section class="container profile-container span_3_of_3 group">
+           <!--load templates here-->
+          <!-- <div class="card span_1_of_3">
+               <!--<div class="container">
+                   <h1>{{name}}</h1>
+                   <span class="phone_icon"><p>{{phone1}}</p></span>
+                   <p class="title">Can’t talk now? Click below to send an email.</p>
+
+
+                  <button id="modalBtn"><span class="email_icon"></span>Contact This Pro</button>
+
+                   <p>Business Hours</br>
+                   Weekdays {{weekHours}}7:00am - 7:00pm</br>
+               Saturdays {{weekHours.sat}}7:00am - 3:00pm</br>
+                       Sundays - {{weekHours.sun}}CLOSED</p>
+               </div>-->
+           <!--</div>
+           <div class="card span_1_of_3">
+               <!--<div class="container">
+                   <h1>Aqua Experts</h1>
+                   <span class="phone_icon"><p>1.888.888.8888</p></span>
+                   <p class="title">Can’t talk now? Click below to send an email.</p>
+
+
+                   <button id="modalBtn"><span class="email_icon"></span>Contact This Pro</button>
+
+                   <p>Business Hours</br>
+                       Weekdays 7:00am - 7:00pm</br>
+                       Saturdays 7:00am - 3:00pm</br>
+                       Sundays - CLOSED</p>
+               </div>-->
+          <!-- </div>
+           <div class="card span_1_of_3">
+               <div class="container">
+                   <h1>Aqua Experts</h1>
+                   <span class="phone_icon"><p>1.888.888.8888</p></span>
+                   <p class="title">Can’t talk now? Click below to send an email.</p>
+
+
+                   <button id="modalBtn"><span class="email_icon"></span>Contact This Pro</button>
+
+                   <p>Business Hours</br>
+                       Weekdays 7:00am - 7:00pm</br>
+                       Saturdays 7:00am - 3:00pm</br>
+                       Sundays - CLOSED</p>
+               </div>
+           </div>-->
+
+       </section>
+
+       <!-- The Modal Template -->
+       <section id="cardModal" class="modal">
+
+           <!-- Modal content || Load the templates here...-->
+           <div class="modal-content">
+               <div class="modal-header">
+                   <span class="close">&times;</span>
+                   <h2>Business Name</h2>
+               </div>
+               <div class="modal-body">
+                   <div class="form-container">
+                       <p>Fill out the form below and <span class="template_paragraph_title">BUSINESS</span> will get in touch</p>
+                       <form action="/action_page.php">
+
+                           <label for="name">First and last name</label>
+                           <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+                           <label for="phone">Phone number</label>
+                           <input type="number" id="phone-number" class="span_1_of_3" name="phone-number" placeholder="Your phone number...">
+
+                           <label for="email">Email address</label>
+                           <input type="email" id="email-address" class="span_2_of_3" name="email-address" placeholder="Your email address..." >
+
+
+                           <label for="comments-questions" class="inlined">Comments or questions</label>
+                           <p class="optional-tag">optional</p>
+                           <textarea id="comments-questions" name="comments-questions" placeholder="Write something.." style="height:200px"></textarea>
+
+                           <label for="questionairre" class="inlined">Do you currently own a pool or spa?</label>
+                           <p class="optional-tag">optional</p>
+                           <input type="button" value="Yes">
+                           <input type="button" value="No">
+                           <span class="line span_3_of_3"></span>
+                           <!--submit form-->
+                           <input type="submit" class="submit-link" value="Next">
+
+                       </form>
+                   </div>
+               </div>
+               <div class="modal-footer">
+                   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                       <br>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+               </div>
+			</div>
+
+       </section>
+       <!--Footer-->
+       <footer class="footer span_3_of_3">
+           <div class="pinnacle span_2_of_3">
+               <span class="footer_logo"></span>
+               <h3>CONNECT WITH US</h3>
+               <span class="social_icons"></span>
+           </div>
+           <div class="root span_2_of_3 group">
+               <p>&copy; 2017 Pool Pros</p>
+               <p>Privacy Policy</p>
+               <p>Terms & Conditions</p>
+           </div>
+       </footer>
+
+
+
+        <!--templates-->
+        <script id="dealer-profile-template" type="text/x-handlebars-template">
+            {{#each this}}
+            <div class="card span_1_of_3">
+                <div class="container">
+                    <h1>{{data.name}}</h1>
+                    <span class="phone_icon"><p>{{data.phone1}}</p></span>
+                    <p class="title">Can’t talk now? Click below to send an email.</p>
+                    <button id="modalBtn"><span class="email_icon"></span>Contact This Pro</button>
+                    <p>Business Hours</br>
+                        Weekdays {{data.weekHours.mon}}</br>
+                        Saturdays {{data.weekHours.sat}}</br>
+                        Sundays - {{data.weekHours.sun}}</p>
+                </div>
+            </div>
+          {{/each}}
+        </script>
+        <script id="dealer-modal-template" type="text/x-handlebars-template"></script>
+
+
+        <script src="js/vendor/handlebars-v4.0.10.js"></script>
+        <script src="js/pool_dealer.js"></script>
+        <script type="text/javascript">
+            window.onload = function (){
+                poolDealer.init();
+            }
+        </script>
+
+
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

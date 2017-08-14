@@ -1,0 +1,207 @@
+/* =====
+MODAL
+======== */
+
+
+/* Sections */
+section.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+    /* Modal Content/Box */
+    div.modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+
+        div.modal-header {
+            padding: 2px 16px;
+            margin-bottom: 20px;
+            background-color: #083D8C;
+            color: white;
+        }
+
+        div.modal-body {
+            padding: 2px 16px;
+
+            div.form-container p{
+                color: #616161;
+                font-family: "San Francisco Display Medium";
+            }
+
+            form label{
+                display: block;
+                color: #616161;
+                font-family: "San Francisco Display Medium";
+            }
+
+            form label.inlined {
+                display: inline-block;
+            }
+
+            form p {
+                float: right;
+                margin: 0px;
+                padding: 0px;
+                font-family: "San Francisco Display Thin";
+            }
+
+            form p.optional-tag{
+                color: #D8D8D8;
+            }
+
+            form span.line{
+                border: 1px solid #D8D8D8;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                float: left;
+                display: block;
+            }
+            /* Style inputs with type="text", select elements and textareas */
+            form input[type=text], select, textarea {
+                width: 100%; /* Full width */
+                padding: 12px; /* Some padding */
+                border: 1px solid #ccc; /* Gray border */
+                border-radius: 4px; /* Rounded borders */
+                box-sizing: border-box; /* Make sure that padding and width stays in place */
+                margin-top: 6px; /* Add a top margin */
+                margin-bottom: 16px; /* Bottom margin */
+                resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+            }
+
+            form input[type=number] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #cccccc;
+                border-radius: 4px; /* Rounded borders */
+                box-sizing: border-box; /* Make sure that padding and width stays in place */
+                margin-top: 6px; /* Add a top margin */
+                margin-bottom: 16px; /* Bottom margin */
+
+            }
+
+            form input[type=email] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #cccccc;
+                border-radius: 4px; /* Rounded borders */
+                box-sizing: border-box; /* Make sure that padding and width stays in place */
+                margin-top: 6px; /* Add a top margin */
+                margin-bottom: 16px; /* Bottom margin */
+            }
+
+
+            form input[value^="Yes"] {
+                //positioning
+                clear: both;
+                float: left;
+                background-color: #E5E5E5;
+                border: 1px solid #3F3F3F;
+                border-radius: 4px;
+                padding: 12px 20px;
+
+            }
+
+            form input[value^="No"] {
+                //positioning
+                float: left;
+                background-color: #E5E5E5;
+                border: 1px solid #3F3F3F;
+                border-radius: 4px;
+                padding: 12px 20px;
+                margin-left: 10px;
+            }
+
+
+            form input[type=button] {
+                margin-top: 20px;
+            }
+
+            //active input buttons
+            form input[type=button]:active{
+                background-color: #02C7C6;
+                color: white;
+                padding: 12px 20px;
+                border: 1px solid #026B6B;
+                border-radius: 4px;
+            }
+
+
+            /* Style the submit button with a specific background color etc */
+            form input[type=submit] {
+                color: #02C7C6;
+                cursor: pointer;
+                //positioning
+                display:block;
+                margin: 0px auto;
+                clear: both;
+            }
+
+            /* When moving the mouse over the submit button, add a darker green color */
+            form input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+
+
+            /* Add a background color and some padding around the form */
+            div.form-container {
+                border-radius: 5px;
+                background-color: #E5E5E5;
+                padding: 20px;
+            }
+        }
+
+        div.modal-footer {
+            padding: 2px 16px;
+            margin-top: 20px;
+            background-color: #E5E5E5;
+            color: white;
+            p{
+                text-align: left;
+                color: #333;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+        }
+    }
+
+    /* The Close Button */
+    span.close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    span.close:hover,
+    span.close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}

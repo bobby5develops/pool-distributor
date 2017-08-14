@@ -1,0 +1,30 @@
+/* =====
+FOOTER
+======== */
+
+
+/* Sections */
+footer.footer{
+    background-color: #083D8C;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    .pinnacle{
+        margin:0px auto;
+        span{
+
+        }
+        h3{
+            text-align:center;
+        }
+    }
+    .root{
+        margin:0px auto;
+        text-align: center;
+        p{
+            display:inline-block;
+            text-align:center;
+        };
+    }
+}

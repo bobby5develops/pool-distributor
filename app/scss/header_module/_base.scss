@@ -1,0 +1,35 @@
+/* =====
+HEADER
+======== */
+
+/* Imports */
+@import "../fonts";
+
+
+/* Sections */
+header {
+    background-color: #083D8C;
+    height: 42px;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+        li{
+            float: left;
+        }
+        li a{
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            color: #216DDF;
+            padding: 8px 5px;
+            font-family: "San Francisco Display Thin";
+        }
+        li a:last-child{
+            float: right;
+        }
+    }
+}
+
